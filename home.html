@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marketplace</title>
+  <script src="https://kit.fontawesome.com/b09c09de6f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="home.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Popper.js (for positioning of dropdowns) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body style="height: 2000px">
+<!-- php connector check -->
+  <?php
+    phpinfo();
+    ?>
+<!-- php connector check end -->
+
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: lightblue;">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="logo.png" width="75" height="75" class="d-inline-block align-top" alt="">
+        Marketplace
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse d-flex justify-content-between align-items-center" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="home.html">Home <span class="sr-only"><home class="html"></home></span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="inbox.html">inbox <span class="sr-only"><home class="html"></home></span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Account
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="advertenties.html">Mijn Advertenties</a>
+                  <a class="dropdown-item" href="account.html">Profielbeheer</a>
+                  <a class="dropdown-item" href="logout.html">Uitloggen</a>
+                </div>
+              </li>
+              
+        </ul>
+        <div class="d-flex ml-auto align-items-center">
+            <a class="navbar-brand d-flex align-items-center" href="inbox.html">
+                <img src="inbox.png" width="40" height="40" class="d-inline-block align-top" alt="">
+            </a>
+            <a class="navbar-brand d-flex align-items-center" href="checkout.html">
+                <img src="portfoliomarketplace/portfoliomarketplace/cart.png" width="40" height="40" class="d-inline-block align-top" alt="">
+            </a>
+            <a class="navbar-brand d-flex align-items-center" href="favourite.html">
+                <img src="portfoliomarketplace/favourite.png" width="40" height="40" class="d-inline-block align-top" alt="">
+            </a>
+            <form class="form-inline my-2 my-lg-0 d-flex align-items-center">
+                <input class="form-control mr-sm-2 form-control-lg" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0 btn-lg" type="submit">Search</button>
+            </form>
+            
+        </div>
+    </div>
+</nav>
+
+
+
+  <!-- gray box start-->
+  <div class="box">
+    <div class="contact-section">
+      <h4>Contact Us</h4>
+      <p>Email: contact@marketplace.com</p>
+      <p>
+        Marketplace<br>
+        12 Hoofdgracht<br>
+        Amsterdam 1234 AB<br>
+        Netherlands   </p>
+    </div>
+    <div class="contact-section">
+
+      <div class="socials-section">
+        <h4>Socials</h4>
+        <div class="social-media-icons">
+          <a href="https://www.facebook.com/" class="social-icon"><i class="fab fa-facebook"></i></a>
+          <a href="https://twitter.com/" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/company/" class="social-icon"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.youtube.com/user/" class="social-icon"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.pinterest.com/" class="social-icon"><i class="fab fa-pinterest"></i></a>
+          <a href="https://www.snapchat.com/add/" class="social-icon"><i class="fab fa-snapchat"></i></a>
+          <a href="https://www.tiktok.com/@p" class="social-icon"><i class="fab fa-tiktok"></i></a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- gray box end -->
+
+  <!-- footer start-->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+            <p>&copy; 2024 Marketplace. All rights reserved. | Privacy Policy | Terms of Service</p>
+        </div>
+      </div>
+ 

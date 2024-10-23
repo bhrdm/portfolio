@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: white;
+    border-bottom: solid;
+  }
+
+.logo {
+    width: 188px;
+    height: 90px;
+}
+.navbar{
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+ 
+
+/* info bar start */
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: rgb(216, 233, 233);
+    padding: 20px;
+  }
+  
+  .contact-section {
+    flex-basis: 45%;
+    margin-right: 50px;
+    margin-left: 90px;
+  }
+  
+  .opening-hours-section {
+    flex-basis: 50%;
+    margin-left: 20px;
+  }
+  
+  .socials-section {
+    margin-top: 20px;
+  }
+  
+  .box h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .box p {
+    margin: 5px 0;
+  }
+  
+  .box ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .box ul li {
+    margin-bottom: 5px;
+  }
+  
+  .box ul li a {
+    color: #242222c2;
+    text-decoration: none;
+  }
+  
+  .box ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-media-icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .social-icon {
+    color: #0a0808;
+    font-size: 18px;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  .social-icon:hover {
+    color: #000;
+  }
+   
+  /* info bar end */
+  
+  /* footer start */
+  body, html {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer {
+    margin-top: auto;
+    background-color: lightgray;
+    padding: 20px 0;
+  }
+</style>
+
+  /* footer end */
